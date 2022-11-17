@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-11-16T14:09:49.437239Z",
+  "genesis_time": "2022-11-17T13:43:03.148303569Z",
   "chain_id": "bronos_1038-1",
   "initial_height": "1",
   "consensus_params": {
@@ -114,7 +114,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "bronos1sjscwq48pk6p6ytad8n2nzhtltwcqmgkudezrv",
+            "address": "bronos1a99a32dla4az68ja3nppljjf4qmcsxddftqtcx",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -181,19 +181,6 @@
           ]
         },
         {
-          "address": "bronos1sjscwq48pk6p6ytad8n2nzhtltwcqmgkudezrv",
-          "coins": [
-            {
-              "denom": "abro",
-              "amount": "400000000000000000000"
-            },
-            {
-              "denom": "stake",
-              "amount": "500000000000000000000000000"
-            }
-          ]
-        },
-        {
           "address": "bronos13gqz4rnmamv8hxx9xfkmy0p8tm0ys2nqhz8kc6",
           "coins": [
             {
@@ -242,6 +229,19 @@
             {
               "denom": "stake",
               "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "bronos1a99a32dla4az68ja3nppljjf4qmcsxddftqtcx",
+          "coins": [
+            {
+              "denom": "abro",
+              "amount": "400000000000000000000"
+            },
+            {
+              "denom": "stake",
+              "amount": "500000000000000000000000000"
             }
           ]
         },
@@ -375,11 +375,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "bronos1sjscwq48pk6p6ytad8n2nzhtltwcqmgkudezrv",
-                "validator_address": "bronosvaloper1sjscwq48pk6p6ytad8n2nzhtltwcqmgk3fc57k",
+                "delegator_address": "bronos1a99a32dla4az68ja3nppljjf4qmcsxddftqtcx",
+                "validator_address": "bronosvaloper1a99a32dla4az68ja3nppljjf4qmcsxddy0pa9u",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "jJJiKAEQKuywtkCqzq1Xbk1BbgHivk3WQ3a2vpg0YbY="
+                  "key": "rcCWkAK0l/bbIW3AGFDzPa7w46IwzKZPQks0chhItvE="
                 },
                 "value": {
                   "denom": "abro",
@@ -387,7 +387,7 @@
                 }
               }
             ],
-            "memo": "6bc82354a7a23f669fc960f381bcece75ab3b74c@192.168.10.142:26656",
+            "memo": "f845c5b7944b4171d5302e09db2f8319a7186ee7@77.68.67.216:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -397,7 +397,7 @@
               {
                 "public_key": {
                   "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "ApD0Wz9+gHzWoXh+YkmETB/RAns+4qGDvOktFdC7d4ht"
+                  "key": "A/Kw7UGKXyYXMmOeQXSdKDRPZyBhn+mUYEnfwQKcppC+"
                 },
                 "mode_info": {
                   "single": {
@@ -416,7 +416,7 @@
             "tip": null
           },
           "signatures": [
-            "aSf7qL5KVkWWRj+2LXsYnzzh6QG0W8eU5+5kelb8pcBT7hoRd8fiFudP7taXDLUyEJEqy1j01kk1nnnNLpFXggA="
+            "Krya2ktTeL9LlFn0AzKFk4MYgeCKEEncixmOGUIuvNEKQf6xIm+ial/+islGQaBQWgYqM/O6W9Mh+YTj4vsqdAE="
           ]
         }
       ]
